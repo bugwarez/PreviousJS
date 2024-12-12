@@ -1,0 +1,34 @@
+{
+  "name": "previousjs",
+  "version": "0.0.1",
+  "description": "prolly better than nextjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuna GUNDUZ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "module-alias": "^2.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "_moduleAliases": {
+    "@/src": "./dist/src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/express": "^5.0.0",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "babel-loader": "^9.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

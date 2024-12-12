@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "jsx": "react",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+    //   "allowImportingTsExtensions": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "rootDir": "."
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src", "server.ts"]
+  }
